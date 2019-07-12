@@ -10,6 +10,11 @@ body{
     margin-top : 30;
 }
 
+.messages{
+    color: aliceblue;
+    text-align: center
+}
+
 #line1{
     text-align: center;
     margin-top: 150;
@@ -28,7 +33,7 @@ body{
     text-align: center;
     margin-top: -10;
     font-size: 30;
-    color: aliceblue
+    color: aliceblue;
 }
 
 #getstartbutton{
