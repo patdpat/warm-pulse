@@ -1,31 +1,34 @@
 body{
-    background-image: url('image/background.jpg');
+    background-image: url("background.JPG")
 }
 
 .middle{
     text-align: center;
 }
-
-.messages{
-    margin: auto;
+.logo{
+    text-align: center;
+    margin-top : 30;
 }
 
 #line1{
     text-align: center;
-    margin-top: 250;
+    margin-top: 150;
     font-size: 30;
+    color: aliceblue
 }
 
 #line2{
     text-align: center;
     margin-top: 0;
     font-size: 70;
+    color: aliceblue
 }
-
+     
 #line3{
     text-align: center;
     margin-top: -10;
-    font-size: 40;
+    font-size: 30;
+    color: aliceblue
 }
 
 #getstartbutton{
