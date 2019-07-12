@@ -23,3 +23,8 @@ if (brain <= 9) {
   document.getElementById("brain").innerText += "critical";
   //
 }
+
+let number = Math.random();
+console.log(number);
+let number2 = Math.round(number * 10);
+console.log(number2);

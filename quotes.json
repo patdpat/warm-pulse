@@ -1,32 +1,34 @@
 {
-    "quotes": [
-        {
-            "1": "You are not alone เธอไม่ได้อนู่คนเดียวนะ"
-        },
-        {
-            "2": "You will feel better soon เดี๋ยวเธอก็จะรู้สึกดีขึ้น"
-        },
-        {
-            "3": "You are not BAD, just SAD เธอไม่ได้ไม่ดี เธอเเค่เศร้า"
-        },
-        {
-            "4": "The best person to cheer you up is yourself คนที่ให้กำลังใจเธอได้ดีที่สุดคือตัวเธอเองนะ"
-        },
-        {
-            "5": "Start loving yourself, other already did. รักตัวเธอเองหน่อย เพราะคนอื่นเขารักเธออยู่เเล้ว"
-        },
-        {
-            "6": "No problem comes with no possible solution ไม่มีปัญหาไหนที่ไม่มีทางเเก้"
-        },
-        {
-            "7": "How's today? Tomorrow will be better and better don't worry วันนี้เป็นไงบ้าง พรุ่งนี้จะดีขึ้นเรื่อยๆนะไม่ต้องห่วง"
-        },
-        {
-            "8": "Don't let other people tell you what you can or can't do อย่าให้ใครมาบอกว่าเราทำอะไรได้หรือไม่ได้"
-        },
-        {
-            "9": "There is someone out there who wants to give you a hug ข้างนอกมีคนพร้อมจะกอดเธออยู่เสมอนะ"
-        }
-    ]
+  "quotes": [
+    {
+      "1": "You are not alone "
+    },
+    {
+      "2": "You will feel better soon "
+    },
+    {
+      "3": "You are not BAD, just SAD "
+    },
+    {
+      "4": "The best person to cheer you up is yourself "
+    },
+    {
+      "5": "Start loving yourself, other already did. "
+    },
+    {
+      "6": "No problem comes with no possible solution "
+    },
+    {
+      "7": "How's today? Tomorrow will be better and better don't worry "
+    },
+    {
+      "8": "Don't let other people tell you what you can or can't do "
+    },
+    {
+      "9": "There is someone out there who wants to give you a hug "
+    },
+    {
+      "0": "There is someone out there who wants to give you a hug "
+    }
+  ]
 }
-
