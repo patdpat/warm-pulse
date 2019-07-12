@@ -17,10 +17,8 @@ if (brain <= 9) {
   document.getElementById("brain").innerText += "normal";
 } else if (brain > 9 && brain <= 18) {
   document.getElementById("brain").innerText += "concerning";
-  
 } else if (brain > 18 && brain <= 27) {
-  document.getElementById("brain").innerText += "";
-  
+  document.getElementById("brain").innerText += "worrying";
 } else {
   document.getElementById("brain").innerText += "critical";
   //
