@@ -1,3 +1,7 @@
+body{
+  background: url('background3.jpg')
+}
+
 .content {
   text-align: center;
 }
@@ -5,12 +9,22 @@
 .center {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
+  /* border: 5px solid goldenrod; */
   padding: 10px;
+  background-blend-mode: darken;
+  color: white;
 }
 
 .scroller {
-  height: 500px;
-  overflow: scroll;
-}
 
+  height: 400px;
+  overflow: scroll;
+} 
+
+.header{
+  text-align: center;
+  background-color: darkgoldenrod;
+  color: black;
+  font-size: x-large;
+  border: 15px solid darkgoldenrod;
+}
