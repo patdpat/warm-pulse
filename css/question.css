@@ -28,3 +28,10 @@ body{
   font-size: x-large;
   border: 15px solid darkgoldenrod;
 }
+
+.btn.btn-warning{
+  background-color: darkgoldenrod;
+  border: darkgoldenrod
+}
+
+
