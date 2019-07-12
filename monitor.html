@@ -10,6 +10,33 @@
 
     <link rel="stylesheet" href="css/monitor.css">
     <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Year', 'You', 'Average'],
+                ['WEEK 1', 1000, 950],
+                ['WEEK 2', 1170, 950],
+                ['WEEK 3', 660, 950],
+                ['WEEK 4', 1030, 950]
+            ]);
+
+            var options = {
+                title: 'Mental Thoughness/Resilience Codex Number',
+                curveType: 'function',
+                legend: { position: 'bottom' }
+            };
+
+            var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+            chart.draw(data, options);
+        }
+    </script>
+
+
 
 </head>
 
@@ -40,7 +67,8 @@
     <div class="container-fluid bg-1 text-center ">
         <h3 class="margin" style="font-weight: bolder">What a beautiful day, how are you doing ?</h3>
         <h3 style="font-weight: bolder">Your Daily Motivation : </h3>
-        <h3>Committed to improve yourself spiritually, physically and metally.</h3>
+        <h3>Committed to improve yourself spiritually, physically and mentally.
+        </h3>
         <BR></BR>
         <img src="image/pulse.jpeg" class="img-responsive img-circle margin animated heartBeat infinite "
             style="display:inline" alt="main-pulse-logo" width="350" height="350">
@@ -53,20 +81,20 @@
         <div id="show" class="row">
             <div class="col-sm-4">
                 <p style="color: salmon">Your Body Temperature is </p>
-                <p id="temp"></p>
+                <p id="temp" class="animated rubberBand infinite "></p>
                 <p style="color: salmon">Degree Celcius</p>
                 <img src="image/bodytemp.png" class="img-responsive middle" style="width:30%" alt="Image">
             </div>
             <div class="col-sm-4">
                 <p style="color: salmon">Your Heart Rate is </p>
-                <p id="hr"></p>
+                <p id="hr" class="animated rubberBand infinite "></p>
                 <p style="color: salmon">Beats Per Minutes</p>
                 <img src="image/heart.png" class="img-responsive middle" style="width:35%" alt="Image">
             </div>
             <div class="col-sm-4">
                 <p style="color: salmon">
                     Your Mental Status</p>
-                <p id="brain"></p>
+                <p id="brain" class="animated rubberBand infinite "></p>
                 <p style="color: salmon">
                     Yes! we can do this togther</p>
                 <img src="image/bird.png" class="img-responsive middle" style="width:50%" alt="Image">
@@ -77,7 +105,10 @@
 
     <!-- Third Container (Grid) -->
     <div class="container-fluid bg-2 text-center">
-        <h3 class="margin">Mental Graph By Week</h3>
+        <h3 class="margin">Mental Graph By Month</h3>
+        <div id="curve_chart" style="width: 900px; height: 500px; margin: auto;"></div>
+        <BR></BR>
+
 
         <a href="high.html" class="btn btn-default btn-lg">
             <span class="glyphicon glyphicon-search" style="margin: auto"></span> find help
