@@ -7,7 +7,9 @@ function passtomonitor() {
   console.log(checkBoxes);
   for (const c of checked) score += Number.parseInt(c.value);
   console.log(score);
-  if (score <= 9) {
+  if (score < 9) {
+    document.getElementById("cross").href = "question.html";
+  } else if ((score = 9)) {
     document.getElementById("cross").href = "monitor.html";
   } else if (score > 9 && score <= 18) {
     document.getElementById("cross").href = "low.html";
