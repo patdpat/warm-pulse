@@ -2,102 +2,127 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style src="css/question.css">
-    </style>
+    <title>self-test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/question.css">
-    <title>Questionaire</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-    <div>
-        <h1 class = 'header'>แบบประเมินโรคซึมโรคซึมเศร้า</h1>
-        <br>
-        <br>
-        <form class="center">
 
-            เลือกคำตอบของคำถามต่อไปนี้ให้ใกล้เคียงกับอาการของท่านใน 2 สัปดาห์ที่ผ่านมา (9 ข้อ)
 
-            <div class="scroller">
-                <P>1. เบื่อไม่สนใจอยากทำอะไร<BR><br>
-                    <input type="radio" name="i" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="i" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="i" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="i" value="4">เป็นทุกวัน<BR><br>
-                </p>
-
-                <P>2. ไม่สบายใจ รู้สึกท้อ เหนื่อยกับชีวิตประจำวัน <BR><br>
-                    <input type="radio" name="h" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="h" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="h" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="h" value="4">เป็นทุกวัน<BR><br>
-                </p>
-                <P>3. หลับยาก(ใช้เวลามากกว่า 30 นาที) หรือ หลับมากไป(มากกว่า 10 ชั่วโมงทุกวัน)<BR><br>
-                    <input type="radio" name="g" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="g" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="g" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="g" value="4">เป็นทุกวัน<BR><br>
-                </p>
-                <P>4. เหนื่อยล้าไม่ค่อยมีแรง<BR><br>
-                    <input type="radio" name="f" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="f" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="f" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="f" value="4">เป็นทุกวัน<BR><br>
-                </p>
-                <P>5. เบื่ออาหาร<BR><br>
-                    <input type="radio" name="e" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="e" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="e" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="e" value="4">เป็นทุกวัน<BR><br>
-                </p>
-                <P>6. คิดว่าตัวเองไม่ประสบความสำเร็จเท่าทีควรไม่ตอบรับต่อความคาดหวัง<BR><br>
-                    <input type="radio" name="d" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="d" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="d" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="d" value="4">เป็นทุกวัน<BR><br>
-                </p>
-                <P>7. สมาธิไม่ดีในการทำงาน วอกแวกบ่อย<BR><br>
-                    <input type="radio" name="c" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="c" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="c" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="c" value="4">เป็นทุกวัน<BR><br>
-                </p>
-                <P>8. พูดช้าทำอะไรช้าหรือกระสับกระส่ายรู้สึกคึกคักเป็นพิเศษ<BR><br>
-                    <input type="radio" name="b" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="b" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="b" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="b" value="4">เป็นทุกวัน<BR><br>
-                </p>
-                <P>9. คิดทำร้ายตัวเอง<BR><br>
-
-                    <input type="radio" name="a" value="1">ไม่มีเลย<BR><br>
-                    <input type="radio" name="a" value="2">เป็นบางวัน<BR><br>
-                    <input type="radio" name="a" value="3">เป็นบ่อย<BR><br>
-                    <input type="radio" name="a" value="4">เป็นทุกวัน<BR><br>
-                </p>
+    <nav class="navbar navbar-default" style="background-color:whitesmoke">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Warm Pulse</a>
             </div>
-
-
-
-            <br>
-            <button type="button" class="btn btn-warning">Send form</button>
-            <button type="button" class="btn btn-outline-warning">Clear form</button>
-            
-        </form>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#show">Our gaol is your happiness and, let you be who you are.</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center">
+        </BR></div>
+    <div class="container-fluid bg-1 text-center">
+        Mental Health Evaluate Form
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <div class="container-fluid bg-1 text-center">
+        By Department of Mental Health, Ministry of Public Health
+        <BR>
+    </div>
+    <div class="container-fluid bg-1 text-center">
+        <BR>
+    </div>
+    <!-- First Container -->
+    <div class="container-fluid bg-2 text-center"><BR></div>
+    <div class="container-fluid scroller bg-2 text-center">
+
+        <h3 style="color: salmon">1. How often do you get the feeling of boredom and want to do nothing?<BR><br></h3>
+        <P>
+            <input type="radio" name="i" value="1"> Never<BR><br>
+            <input type="radio" name="i" value="2"> Sometimes<BR><br>
+            <input type="radio" name="i" value="3"> Often<BR><br>
+            <input type="radio" name="i" value="4"> Everyday<BR><br>
+        </p>
+
+        <h3 style="color: salmon">2. How often do you get tired of your daily routine ?<BR><br></h3>
+        <P>
+            <input type="radio" name="h" value="1"> Never<BR><br>
+            <input type="radio" name="h" value="2"> Sometimes<BR><br>
+            <input type="radio" name="h" value="3"> Often<BR><br>
+            <input type="radio" name="h" value="4"> Everyday<BR><br>
+        </p>
+        <h3 style="color: salmon">3. How often do you have trouble sleeping?<BR><br>
+        </h3>
+        <P>
+            <input type="radio" name="g" value="1"> Never<BR><br>
+            <input type="radio" name="g" value="2"> Sometimes<BR><br>
+            <input type="radio" name="g" value="3"> Often<BR><br>
+            <input type="radio" name="g" value="4"> Everyday<BR><br>
+        </p>
+        <h3 style="color: salmon">4. How often do you feel tired or lack of enthusiasm?<BR><br></h3>
+        <P>
+            <input type="radio" name="f" value="1"> Never<BR><br>
+            <input type="radio" name="f" value="2"> Sometimes<BR><br>
+            <input type="radio" name="f" value="3"> Often<BR><br>
+            <input type="radio" name="f" value="4"> Everyday<BR><br>
+        </p>
+        <h3 style="color: salmon">5. How often do you feel bored of having a meal?<BR><br></h3>
+        <P>
+            <input type="radio" name="e" value="1"> Never<BR><br>
+            <input type="radio" name="e" value="2"> Sometimes<BR><br>
+            <input type="radio" name="e" value="3"> Often<BR><br>
+            <input type="radio" name="e" value="4"> Everyday<BR><br>
+        </p>
+        <h3 style="color: salmon">6. How often do you feel unsuccessful?<BR><br></h3>
+        <P>
+            <input type="radio" name="d" value="1"> Never<BR><br>
+            <input type="radio" name="d" value="2"> Sometimes<BR><br>
+            <input type="radio" name="d" value="3"> Often<BR><br>
+            <input type="radio" name="d" value="4"> Everyday<BR><br>
+        </p>
+        <h3 style="color: salmon">7. How often do you have difficulty focusing on things?<BR><br></h3>
+        <P>
+            <input type="radio" name="c" value="1"> Never<BR><br>
+            <input type="radio" name="c" value="2"> Sometimes<BR><br>
+            <input type="radio" name="c" value="3"> Often<BR><br>
+            <input type="radio" name="c" value="4"> Everyday<BR><br>
+        </p>
+        <h3 style="color: salmon">8.How often you feel lack of enthusiasm or too much of it?<BR><br></h3>
+        <P>
+            <input type="radio" name="b" value="1"> Never<BR><br>
+            <input type="radio" name="b" value="2"> Sometimes<BR><br>
+            <input type="radio" name="b" value="3"> Often<BR><br>
+            <input type="radio" name="b" value="4"> Everyday<BR><br>
+        </p>
+        <h3 style="color: salmon">9. How often do you have the thought of hurting yourself<BR><br></h3>
+        <P>
+            <input type="radio" name="a" value="1"> Never<BR><br>
+            <input type="radio" name="a" value="2"> Sometimes<BR><br>
+            <input type="radio" name="a" value="3"> Often<BR><br>
+            <input type="radio" name="a" value="4"> Everyday<BR><br>
+        </p>
+        <BR> </BR>
+        <button onclick type="button" class="btn btn-warning">Send form</button>
+        <a href="question.html"><button type="button" class="btn btn-outline">Clear form</button></a>
+    </div>
+    <div class="container-fluid bg-2 text-center">
+
+    </div>
+
+
+
 </body>
 
 </html>
