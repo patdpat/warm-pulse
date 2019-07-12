@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="script/monitor.js"></script>
+
     <link rel="stylesheet" href="css/monitor.css">
+    <link rel="stylesheet" href="css/animate.css">
+
 </head>
 
 <body>
@@ -37,30 +37,38 @@
     </nav>
 
     <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
-        <h3 class="margin">How are you doing?</h3>
-        <img src="image/pulse.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Bird"
-            width="350" height="350">
+    <div class="container-fluid bg-1 text-center ">
+        <h3 class="margin" style="font-weight: bolder">What a beautiful day, how are you doing ?</h3>
+        <h3 style="font-weight: bolder">Your Daily Motivation : </h3>
         <h3>This too shall pass :D</h3>
+        <BR></BR>
+        <img src="image/pulse.jpeg" class="img-responsive img-circle margin animated heartBeat infinite "
+            style="display:inline" alt="main-pulse-logo" width="350" height="350">
+
     </div>
 
     <!-- Second Container -->
     <div class="container-fluid bg-3 text-center">
-        <h3 class="margin">Your Personeal Information</h3><br>
+        <h3 class="margin" style="color: salmon">Your Personal Information</h3><br>
         <div id="show" class="row">
             <div class="col-sm-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+                <p style="color: salmon">Your Body Temperature is </p>
+                <p id="temp"></p>
+                <p style="color: salmon">Degree Celcius</p>
                 <img src="image/bodytemp.png" class="img-responsive middle" style="width:30%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <img src="image/heart.png" class="img-responsive middle"style="width:35%" alt="Image">
+                <p style="color: salmon">Your Heart Rate is </p>
+                <p id="hr"></p>
+                <p style="color: salmon">Beats Per Minutes</p>
+                <img src="image/heart.png" class="img-responsive middle" style="width:35%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+                <p style="color: salmon">
+                    Your Mental Status</p>
+                <p id="brain"></p>
+                <p style="color: salmon">
+                    Yes! we can do this togther</p>
                 <img src="image/bird.png" class="img-responsive middle" style="width:50%" alt="Image">
             </div>
         </div>
@@ -69,16 +77,17 @@
 
     <!-- Third Container (Grid) -->
     <div class="container-fluid bg-2 text-center">
-        <h3 class="margin">I like hee</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. </p>
-        <a href="#" class="btn btn-default btn-lg">
-            <span class="glyphicon glyphicon-search"></span> find hee
+        <h3 class="margin">Mental Graph By Week</h3>
+
+        <a href="high.html" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span> find help
         </a>
     </div>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="script/monitor.js"></script>
 
 </body>
 
