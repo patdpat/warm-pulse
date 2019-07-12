@@ -1,0 +1,34 @@
+body{
+    background-image: url('image/background.jpg');
+}
+
+.middle{
+    text-align: center;
+}
+
+.messages{
+    margin: auto;
+}
+
+#line1{
+    text-align: center;
+    margin-top: 250;
+    font-size: 30;
+}
+
+#line2{
+    text-align: center;
+    margin-top: 0;
+    font-size: 70;
+}
+
+#line3{
+    text-align: center;
+    margin-top: -10;
+    font-size: 40;
+}
+
+#getstartbutton{
+    text-align: center;
+    margin-top: 40;
+}
