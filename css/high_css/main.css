@@ -796,7 +796,12 @@ textarea.input100 {
   background-image: url('background3.jpg')
 }
 
-/* .btn.btn-outline{
-  border-color: black;
+.btn.btn-outline{
+  border-color: darkgoldenrod;
   background-color: darkgoldenrod;
-} */
+}
+
+.btn.btn-warning{
+  border-color: darkgoldenrod;
+  background-color: darkgoldenrod;
+}
