@@ -1,7 +1,8 @@
 let score = 0;
 const checkBoxes = document.getElementsByTagName("input");
-checkBoxes.filter(v => v.checked);
 const checked = checkBoxes.filter(v => v.checked);
+console.log(checkBoxes);
 for (const c of checked) score += Number.parseInt(c.value);
+console.log(score);
 
 // window.location = `low.html?score=${score}`;
