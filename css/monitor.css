@@ -13,7 +13,18 @@ p {
 }
 
 .bg-1 {
-  background-color: goldenrod;
+  background: #f7971e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   /* Green */
   color: #ffffff;
 }
@@ -36,7 +47,6 @@ p {
   color: #fff;
 }
 
-
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -54,4 +64,8 @@ p {
 
 .navbar-nav li a:hover {
   color: goldenrod !important;
+}
+
+.middle {
+  margin: auto;
 }
