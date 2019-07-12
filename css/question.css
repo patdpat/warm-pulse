@@ -1,11 +1,15 @@
 .content {
   text-align: center;
-
 }
 
 .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  }
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.scroller {
+  height: 500px;
+  overflow: scroll;
+}
