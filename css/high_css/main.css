@@ -1,6 +1,69 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    /* background-color: darkgoldenrod; */
+    background-image: url('background3.jpg');
+    background-attachment: fixed;
+}
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
 
+p {
+    font-size: 16px;
+}
 
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: goldenrod;
+    /* Green */
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff;
+    /* White */
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
@@ -181,11 +244,12 @@ iframe {
 }
 
 .wrap-contact100 {
-  width: 920px;
-  background: #fff;
-  border-radius: 10px;
+  width: 900px;
+  /* background-color: darkgoldenrod; */
+  border: darkgoldenrod;
+  border-radius: 5px;
   overflow: hidden;
-  padding: 62px 55px 90px 55px;
+  padding: 62px 55px 70px 55px;
 }
 
 
@@ -208,7 +272,7 @@ iframe {
   width: 100%;
   font-family: Montserrat-Black;
   font-size: 39px;
-  color: #333333;
+  color: white;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 59px;
@@ -726,4 +790,18 @@ textarea.input100 {
   .wrap-contact100-form-radio {
     padding: 15px 0px 0 0px;
   }
+}
+
+#background{
+  background-image: url('background3.jpg')
+}
+
+.btn.btn-outline{
+  border-color: darkgoldenrod;
+  background-color: darkgoldenrod;
+}
+
+.btn.btn-warning{
+  border-color: darkgoldenrod;
+  background-color: darkgoldenrod;
 }
