@@ -9,8 +9,6 @@ function passtomonitor() {
   console.log(score);
   if (score < 9) {
     document.getElementById("cross").href = "question.html";
-  } else if ((score = 9)) {
-    document.getElementById("cross").href = "monitor.html";
   } else if (score > 9 && score <= 18) {
     document.getElementById("cross").href = "low.html";
   } else if (score > 18 && score <= 27) {
@@ -20,5 +18,6 @@ function passtomonitor() {
     //
   }
   localStorage.setItem("score", JSON.stringify(score));
+
   // The function returns the product of p1 and p2
 }

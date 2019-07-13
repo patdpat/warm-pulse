@@ -18,13 +18,10 @@ if (brain <= 9) {
 } else if (brain > 9 && brain <= 18) {
   document.getElementById("brain").innerText += "concerning";
 } else if (brain > 18 && brain <= 27) {
-  document.getElementById("brain").innerText += "worrying";
+  document.getElementById("brain").innerText += "tense";
 } else {
   document.getElementById("brain").innerText += "critical";
   //
 }
 
-let number = Math.random();
-console.log(number);
-let number2 = Math.round(number * 10);
-console.log(number2);
+window.localStorage.removeItem("score");
