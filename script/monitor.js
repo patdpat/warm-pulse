@@ -1,11 +1,13 @@
 const baseurl = "https://exceed.superposition.pknn.dev/data/ace";
-fetch(baseurl)
-  .then(res => res.json())
-  .then(data => {
-    console.log(data);
-    document.getElementById("temp").innerText += " " + data["tm"];
-    document.getElementById("hr").innerText += " " + data["hr"];
-  });
+setInterval(() => {
+  fetch(baseurl)
+    .then(res => res.json())
+    .then(data => {
+      console.log(data);
+      document.getElementById("temp").innerText = " " + data["tm"];
+      document.getElementById("hr").innerText = " " + data["hr"];
+    });
+}, 1000);
 
 let brain = JSON.parse(localStorage.getItem("score"));
 console.log(brain);
